@@ -13,6 +13,12 @@ collections:
         label: "General Info"
         file: "data/settings.json"
         fields:
-          - { label: "Hero Tagline", name: "hero_tagline", widget: "string" }
-          - { label: "WhatsApp Number", name: "whatsapp", widget: "string" }
-          - { label: "Instagram Handle", name: "instagram", widget: "string" }
+          - label: "Hero Tagline"
+            name: "hero_tagline"
+            widget: "string"
+          - label: "WhatsApp Number"
+            name: "whatsapp"
+            widget: "string"
+          - label: "Instagram Handle"
+            name: "instagram"
+            widget: "string"

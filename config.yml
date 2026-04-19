@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Info"
+        file: "data/settings.json"
+        fields:
+          - { label: "Hero Tagline", name: "hero_tagline", widget: "string" }
+          - { label: "WhatsApp Number", name: "whatsapp", widget: "string" }
+          - { label: "Instagram Handle", name: "instagram", widget: "string" }
